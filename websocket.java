@@ -8,7 +8,7 @@ public class SocketTextHandler extends TextWebSocketHandler {
    public void handleTextMessage(WebSocketSession session, TextMessage message)
          throws InterruptedException, IOException {
       System.out.println("init");
-      Path logFilePath = Paths.get("/home/mishal/Downloads/CancelFromBillSystem_Q161.log");
+      Path logFilePath = Paths.get("/home/saurabh/Downloads/CancelFromBillSystem_Q161.log");
       try {
          watchLogFile(session,logFilePath);
       } catch (IOException e) {
